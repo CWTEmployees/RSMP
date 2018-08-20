@@ -1,9 +1,4 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+
 html, body{
     font-size: 100%;
 	font-family: 'Open Sans', sans-serif;
@@ -138,8 +133,28 @@ div#myNavbar {
     width: 70%;
     float: right;
 }
-.navbar-nav {
+.navbar-nav 
+{
     float: right;
+    margin-right: -50px !important;
+}
+@media (min-width: 768px) 
+{
+  .navbar-nav {
+    float: left;
+    margin: 0;
+    margin-left:-10px;
+  }
+ 
+}
+@media (min-width: 1024px) 
+{
+  .navbar-nav {
+    float: left;
+    margin: 0;
+    margin-left:250px !important;
+  }
+ 
 }
 /*-- Link Effect: bottom border enlarge --*/
 .link-effect a {
